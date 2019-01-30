@@ -1,0 +1,208 @@
+/* NAVBAR */
+.title-site {
+  border: 1px solid #54978A;
+  background-color: #54978A;
+  font-weight: 300;
+  color: black;
+  padding: 8px;
+}
+
+/* HOME-PAGE */
+.home {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.welcome-title {
+  font-weight: 300;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-weight: lighter;
+  background-color: #54978A;
+  font-size: 70px;
+  padding: 15px;
+}
+
+/* REGISTRATION-PAGE + LOGIN-PAGE */
+
+.registration {
+  border: 2px solid #eeeeee;
+  border-radius: 6px;
+  background-color: #eeeeee;
+  display: block;
+  margin: 50px auto 20px auto;
+  width: 700px;
+  box-shadow: 0px 2px 3px 2px #BFBFBF;
+  -webkit-transition: box-shadow 0.7s;
+  transition: box-shadow 0.7s;
+  font-weight: 300;
+}
+
+.registration:hover {
+  box-shadow: 0px 6px 9px 6px #BFBFBF;
+}
+
+.registration-title {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+
+.registration input {
+  display: block;
+  margin: 20px auto 30px auto;
+  text-align: center;
+  font-size: 18px;
+  width: 325px;
+  background-color: transparent;
+  border-color: #333339;
+  border-radius: 4px;
+}
+
+::placeholder {
+  color: inherit;
+}
+
+.registration button {
+  display: block;
+  margin: 55px auto 40px auto;
+  padding: 14px;
+  border-radius: 7px;
+  font-size: 16px;
+  border: 2px solid #333339;
+  background-color: #eeeeee;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.registration button:hover {
+  border: 2px solid #eeeeee;
+  color: #eeeeee;
+  background-color: #333339;
+}
+
+.errorPassword {
+  text-align: center;
+  display: block;
+  color: #fff;
+  border: 2px solid #C34141;
+  background-color: #C34141;
+  padding: 10px;
+}
+
+.successAccount {
+  text-align: center;
+  display: block;
+  color: #fff;
+  border: 2px solid #56A265;
+  background-color: #56A265;
+  padding: 10px;
+
+}
+
+.no-account {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 30px;
+}
+
+/* ACCOUNT-PAGE */
+.account-title {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.article-title-page {
+  margin: 50px 14%;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.articles {
+  display: grid;
+  list-style: none;
+  margin: 10px 50px 50px 50px;
+  grid-template-columns: 30% 40% 10% 10% 10%;
+  grid-template-rows: auto;
+  box-shadow: 0px 6px 10px 6px #BFBFBF;
+  -webkit-transition: box-shadow 0.7s;
+  transition: box-shadow 0.7s;
+}
+
+.articles:hover {
+  box-shadow: 0px 10px 20px 10px #BFBFBF;
+}
+
+.article-ul,
+.article-li {
+  /* list-style: none; */
+  border: 1px solid #E7EEF1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #E7EEF1;
+  background-color: #27363D;
+  width: 100%;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.article-ul {
+  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-left: inherit;
+}
+
+.article-title,
+.article-contents,
+.article-show,
+.article-edit,
+.article-delete {
+  text-align: center;
+  padding: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.article-show {
+  background-color: #356790;
+  font-size: 22px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.article-edit {
+  background-color: #599861;
+  font-size: 22px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.article-delete {
+  background-color: #AD5444;
+  font-size: 22px;
+  -webkit-transition: background-color 0.5s, color 0.5;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.article-show:hover,
+.article-edit:hover,
+.article-delete:hover {
+  background-color: #E7EEF1;
+  color: #27363D;
+  cursor: pointer;
+}
+
+/* EDIT-ARTICLE */
+
+.edit-article {
+  margin: 0px 14%;
+}

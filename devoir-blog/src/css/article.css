@@ -1,0 +1,125 @@
+/* ARTICLE-PAGE */
+.article-title,
+.article-author-page {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.article-title-page {
+  margin: 20px 14%;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.articles-page {
+  display: grid;
+  list-style: none;
+  margin: 10px 50px 50px 50px;
+  grid-template-columns: 30% 40% 10% 10% 10%;
+  grid-template-rows: auto;
+  box-shadow: 0px 6px 10px 6px #BFBFBF;
+  -webkit-transition: box-shadow 0.7s;
+  transition: box-shadow 0.7s;
+}
+
+.articles-page:hover {
+  box-shadow: 0px 10px 20px 10px #BFBFBF;
+}
+
+.article-ul-page,
+.article-li-page {
+  /* list-style: none; */
+  border: 1px solid #E7EEF1;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #E7EEF1;
+  background-color: #27363D;
+  width: 100%;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.article-ul-page {
+  margin-bottom: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  padding-left: inherit;
+}
+
+.article-title-page,
+.article-contents-page,
+.article-show-page,
+.article-comment-page {
+  text-align: center;
+  padding: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.article-comment-page {
+  background-color: #599861;
+  font-size: 22px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.article-show-page {
+  background-color: #356790;
+  font-size: 22px;
+  -webkit-transition: background-color 0.5s, color 0.5s;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.article-show-page:hover,
+.article-comment-page:hover {
+  background-color: #E7EEF1;
+  color: #27363D;
+  cursor: pointer;
+}
+
+/* BUTTON */
+
+.write {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border-color: #27363D;
+  background-color: #eeeeee;
+  color: #27363D;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px 4px #BFBFBF;
+  -webkit-transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+  transition: background-color 0.5s, color 0.5s, box-shadow 0.5s;
+}
+
+.write:hover {
+  border-color: #27363D;
+  background-color: #27363D;
+  color: #eeeeee;
+  box-shadow: 0 3px 5px 3px #BFBFBF;
+}
+
+/* WRITE-PAGE */
+
+textarea {
+  display: block;
+  width: 100%;
+  border: 2px dotted grey;
+  border-radius: 6px 3px 1px 0px;
+  resize: none;
+}
+
+/* SUCCESS-ARTICLE */
+
+.success-article {
+  display: block;
+  text-align: center;
+  border: 1px solid #56A265;
+  background-color: #56A265;
+  height: 20px;
+  margin: 30px auto 0 auto;
+  width: 700px;
+}
